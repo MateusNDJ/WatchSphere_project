@@ -1,0 +1,95 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #a6a6a6;
+    background-color: #1a1a2e;
+}
+
+.font-bold{ 
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 2rem;
+}
+.font-quasebold{
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+/* header */
+header{
+    background-color: #0a1033;
+    color: #a6a6a6;
+    padding: 10px 20px;
+}
+
+.logo h1, .logo h2 {
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover{
+    text-decoration: underline;
+}
+
+
+/* page */
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.trailer-container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display:flex ;
+}
+.container img{
+    height: 450px;
+    width: 324px;
+}
+.container ul {
+    list-style-type: none;
+    
+    padding: 0;
+}
+
+.container li {
+    display: inline;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+/* footer */
+footer {
+    background-color: #0a1033;
+    color: #a6a6a6;
+    text-align: center;
+    padding: 5px;
+    bottom: 0;
+    width: auto;
+}
